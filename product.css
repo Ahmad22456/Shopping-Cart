@@ -1,0 +1,38 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.ps5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px dashed red; */
+}
+
+.ps5_img {
+  width: 25rem;
+}
+
+.ps5_text {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.ps5_price {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px dashed red; */
+}
+
+.price_text {
+  font-size: 1.3rem;
+  font-weight: 800;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./product.css">
+    <title>Shop</title>
+  </head>
+  <body>
+    <nav class="container navbar">
+      <h1 class="navtext">Shopping Cart</h1>
+      <button class="btn">
+        <img
+          class="cart_img"
+          src="./res/shopping_cart_FILL0_wght400_GRAD0_opsz48.png"
+          alt="Cart Image"
+        />
+      </button>
+      <div class="cart_list hide">
+        <div class="shade"></div>
+        <div class="item_list">
+            <button class="btn1">
+                <img
+                  class="cart_img"
+                  src="./res/shopping_cart_FILL0_wght400_GRAD0_opsz48.png"
+                  alt="Cart Image"
+                />
+            </button>
+          <ul class="items"></ul>
+          <div class="price">Total price: 0</div>
+        </div>
+      </div>
+    </nav>
+    <section class="container products">
+        <div class="ps5">
+            <div> <img class="ps5_img" src="./res/ps5.jpg" alt="ps5"> </div>
+            <p class="ps5_text">Sony Limited Edition Spider-Man 2 PS5 Console</p>
+            <div class="ps5_price">
+                <p class="price_text">Price: 30,000</p> 
+                <div class="ps5_btn">
+                    <button class="btn_remove">-</button>
+                    <button class="btn_add">+</button>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
