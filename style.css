@@ -84,7 +84,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  list-style: none;
   font-weight: 700;
   padding: 2rem 1rem;
   /* border: 1px dashed red; */
