@@ -9,6 +9,7 @@
 }
 
 .ps5 {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +35,30 @@
   /* border: 1px dashed red; */
 }
 
-.price_text {
+.price_text, .quantity {
   font-size: 1.3rem;
   font-weight: 800;
+}
+
+.ps5_btn {
+  display: flex;
+  /* border: 1px dashed red; */
+  gap: 1rem;
+}
+.btn_like, .btn_add {
+  cursor: pointer;
+}
+
+.btn_like {
+  width: 3.5rem;
+  border-radius: 2rem;
+}
+
+.heart_img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn_like_color {
+  background-color: palevioletred;
 }

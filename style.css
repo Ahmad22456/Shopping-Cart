@@ -80,7 +80,7 @@ html {
   /* border: 1px dashed red; */
 }
 
-.items {
+.cart_items {
   display: flex;
   flex-direction: column;
   gap: 3rem;
